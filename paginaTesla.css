@@ -124,7 +124,7 @@ body {
     display: none; /*  Este es el que oculta el menú por defecto. */
     left: -1px;
     padding: 1rem;
-    position: absolute; /*  Saca el menú del flujo normal del documento para poder posicionarlo. */
+    position: absolute; 
     top: 2.90rem;;
     background-color: white;
     z-index: 1;
@@ -135,7 +135,7 @@ body {
 
 .dropdown-content-energy {
     display: none; /*  Este es el que oculta el menú por defecto. */
-    position: absolute; /*  Saca el menú del flujo normal del documento para poder posicionarlo. */
+    position: absolute; 
     left: -1px;
     background-color: white;
     z-index: 1;
@@ -653,17 +653,17 @@ body {
 
 .punto {
     display: block;
-    width: 13px; /* Tamaño del punto */
+    width: 13px; 
     height: 13px;
     margin: 0 5px; /* Espacio entre los puntos */
-    background-color: #aaa; /* Color gris para los puntos inactivos */
-    border-radius: 50%; /* Esto es lo que los hace circulares */
+    background-color: #aaa;
+    border-radius: 50%; 
     transition: background-color 0.3s ease; /* Transición suave del color */
 }
 
 
 .punto.activo {
-    background-color: #333; /* Color oscuro para el punto activo */
+    background-color: #333; 
 }
 
 
@@ -672,17 +672,17 @@ body {
 /* Estilos para el contenedor principal de la sección */
 .tlc-seccion {
     padding: 40px;
-    background-color: white; /* Un fondo gris claro para la sección */
+    background-color: white; 
 }
 
 /* Estilos para el contenedor de las dos columnas (izquierda y derecha) */
 .content-tlc {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Esto agrega un espacio entre las dos tarjetas */
+    gap: 20px; 
     width: 1450px;
     height: 220px;
-    margin: 0 auto; /* Centra el contenedor principal */
+    margin: 0 auto; 
 }
 
 /* Estilos para cada una de las tarjetas */
@@ -780,7 +780,7 @@ button:hover {
 /* Estilos para cada "tarjeta" (video o imagen) */
 .card-item-v {
     position: relative; /* Clave: este es el punto de referencia */
-    height: 580px;; /* Puedes ajustar la altura según el diseño que quieras */
+    height: 580px;; 
     overflow: hidden;
     border-radius: 10px;
     width: 67%;
@@ -1150,7 +1150,7 @@ button:hover {
 
 
 .carrusel-3 {
-    position: relative; /* Esencial para posicionar los puntos de forma absoluta */
+    position: relative; 
     overflow: hidden; /* Oculta las diapositivas que no se ven */
 }
 
@@ -1160,7 +1160,7 @@ button:hover {
     bottom: -4px; /* Distancia desde la parte inferior */
     width: 100%;
     margin-top: 1.5rem;
-    text-align: center; /* Centra los puntos horizontalmente */
+    text-align: center;
     z-index: 10; /* Asegura que los puntos estén por encima de otros elementos */
 }
 
@@ -1193,8 +1193,8 @@ footer {
 }
 
 .footer-container {
-    max-width: 1400px; /* Limita el ancho para que no se extienda por toda la página */
-    margin: 0 auto; /* Centra el contenedor */
+    max-width: 1400px; 
+    margin: 0 auto; 
     margin-top: 5rem;
     
 }
